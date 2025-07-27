@@ -56,7 +56,7 @@
 #include <stdint.h>
 #include "Debug.h"
 #include "XboxTLS.h"
-#define MAX_ANCHORS 8
+#define MAX_ANCHORS 255
 static br_hmac_drbg_context g_drbg;
 
 extern "C" void XeCryptRandom(BYTE* pb, DWORD cb);
